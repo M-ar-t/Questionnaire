@@ -4,7 +4,7 @@
     background-color: white;
     border-radius: 20px;
     padding: 20px;
-    /* width: 700px; */
+    width: 700px;
     height: auto;
     position: absolute;
     top:  50%;
@@ -30,9 +30,36 @@ li:hover{
     font-weight: 600;
     margin-bottom: 20px;
 }
-.answer_options{
+@media screen and (max-width:900px){
+    .main{
+       
+        width: auto;
 
+    }
 }
-.answer_item{
+@media screen and (max-width:900px){
+    .main{
+       
+        width: 500px;
 
+    }
+}
+@media screen and (max-width:600px){
+    .main{
+       
+        width: 300px;
+
+    }
+}
+@media screen and (max-width:380px){
+    .main{
+       
+        width: 200px;
+    }
+}
+@media screen and (max-width:280px){
+    .main{
+       
+        width: auto;
+    }
 }
